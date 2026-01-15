@@ -23,6 +23,17 @@ fn main(){
      let num2:u8=31;
      let result:u8=num1+num2;
      println!("The Total Sum is {}",result);
+
+
+     // Variable scoping 
+
+     let outside:u8=1;
+     {
+        let inside:u8=2;
+        println!("The inside value is {}",inside);
+     }
+
+     println!("The outside value is {}",outside);
 }
 // Function Implementation
 fn add(item1:u8,item2:u8)->u8{
