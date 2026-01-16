@@ -40,7 +40,9 @@ fn main(){
      let str1 = String::from("Rishabh");
      let str2 = str1;
      println!("The str2 = {}",str2);
-     
+
+     println!("WINNER TAKES IT ALL!")
+
 }
 // Function Implementation
 fn add(item1:u8,item2:u8)->u8{
