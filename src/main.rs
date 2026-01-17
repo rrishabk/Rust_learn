@@ -42,6 +42,7 @@ fn main(){
      println!("The str2 = {}",str2);
 
      println!("WINNER TAKES IT ALL!")
+     println!("ATF! ")
 
 }
 // Function Implementation
