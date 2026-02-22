@@ -41,11 +41,22 @@ fn main(){
      let str2 = str1;
      println!("The str2 = {}",str2);
 
-     println!("WINNER TAKES IT ALL!")
-     println!("ATF! ")
+     println!("WINNER TAKES IT ALL!");
+     println!("ATF! ");
+let r1=String::from("hello");
+let r2=r1.clone();
+println!("r1={} ,r2={} ",r1,r2);
+let len:usize=calculate_length(&r1);
+println!("The valus of {} is {}",r1,len);
 
 }
 // Function Implementation
 fn add(item1:u8,item2:u8)->u8{
     return item1+item2;
+}
+
+//Function Implementatiton
+
+fn calculate_length(s2:&String)->usize{
+    return s2.len();
 }
